@@ -1,0 +1,24 @@
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes delete{
+    0% {
+        // transform: translateX(150px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(300px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(380px);
+        opacity: 0;
+    }
+}
